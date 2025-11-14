@@ -1,0 +1,39 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+Debug/
+Release/
+
+## NuGet
+*.nupkg
+packages/
+*.snupkg
+*.nuspec
+
+## Publish
+publish/
+out/
+
+## Logs
+*.log
+
+## Rider / JetBrains
+.idea/
+*.iml
+
+## Temporary
+*.tmp
+*.temp
+
+## User secrets (não publique isso jamais)
+**/secrets.json
+
+## dotnet tools
+.toolstarget

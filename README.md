@@ -176,12 +176,12 @@ At the end, you will see the confirmation:
 
 `[SUCCESS] Operation completed successfully.`
 
-6. Applying the Migration
+### 6. Applying the Migration
 This tool only generates the migration file; it does not run it.
 
 Go to your main project (where the file was generated) and run your normal SharpMigrations process (e.g., migrate.bat or similar) to apply the changes to the database.
 
-🏛️ Database Structure
+### 🏛️ Database Structure
 This tool primarily interacts with the following tables:
 
 `front.Aba`: (Read) Used to select the Tab.
@@ -192,5 +192,5 @@ This tool primarily interacts with the following tables:
 
 `dbo.Movimento`: (Write via Migration) The main data table that is physically altered by the generated migration.
 
-📄 License
+### 📄 License
 This project is licensed under the MIT License.
